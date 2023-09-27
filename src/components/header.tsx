@@ -17,11 +17,11 @@ export default function Header() {
       <Grid item xs={12} className="txt-light">
         <Grid container justifyContent={"center"} alignItems={"center"}>
           <Grid item md={1}>
-            <Image src={"logo.png"} width={100} height={100} alt="logo" />
+            <Image src={"/ramlila/logo.png"} width={100} height={100} alt="logo" />
           </Grid>
           <Grid item md={1}>
             <Image
-              src={"vidya_bharti.png"}
+              src={"/ramlila/vidya_bharti.png"}
               width={100}
               height={100}
               alt="logo"
